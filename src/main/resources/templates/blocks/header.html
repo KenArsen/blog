@@ -1,0 +1,13 @@
+<!--Сайтта улам кайаталана берген шапкаларды томонкудой кылып жазып алсак болот-->
+<!--th бул thymeleaf кыскартылганы-->
+<!--th header деген фрагмен жарыяладык жана аны башка шаблондордо ушул имя менен колдонсок болот-->
+<div th:fragment="header">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="/" class="nav-link px-2 text-secondary">Главнай</a></li>
+            <li><a href="/blog" class="nav-link px-2 text-black">Блог</a></li>
+            <li><a href="/blog/add" class="nav-link px-2 text-black">Добавить статью</a></li>
+            <li><a href="/about" class="nav-link px-2 text-black">Про нас</a></li>
+        </ul>
+    </div>
+</div>
